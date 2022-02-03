@@ -30,9 +30,9 @@ class HeadCompMobile extends HTMLElement {
       <hr width=100% size=4px color=#9C4E97 align=left>
 
       <span class="icons">
-        <a title="RSS Feed" href="rss.xml"><img src="/imgs/discord.svg"></a>
-        <a title="RSS Feed" href="rss.xml"><img src="/imgs/github.svg"></a>
-        <a title="RSS Feed" href="rss.xml"><img src="/imgs/coffee.svg"></a>
+        <a title="Discord Server" href="https://poo.url.lol/walkxhub"><img src="/imgs/discord.svg"></a>
+        <a title="GitHub" href="https://github.com/walkxcode"><img src="/imgs/github.svg"></a>
+        <a title="Ko-Fi" href="https://ko-fi.com/walkx"><img src="/imgs/coffee.svg"></a>
       </span>
     `
   }
