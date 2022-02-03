@@ -11,7 +11,7 @@ class HeadComp extends HTMLElement {
       </span>
 
       <h2 class="title-2"><a href=/webrings><i>(Webrings)</i></a></h2>
-      <h2 class="title-2 back"><a href=javascript:history.back()><i>(Back)</i></a></h2>
+      <h2 class="title-2 back"><a href=/><i>(Back)</i></a></h2>
 
       <hr width=100% size=5.5px color=#9C4E97 align=left>
     `
@@ -25,7 +25,7 @@ class HeadCompMobile extends HTMLElement {
       <br>
       <h1 class="title"><b><i>Walkx - Freedom</i></b></h1>
       <h2 class="title-2"><a href=/webrings><i>(Webrings)</i></a></h2>
-      <h2 class="title-2 back"><a href=javascript:history.back()><i>(Back)</i></a></h2>
+      <h2 class="title-2 back"><a href=/><i>(Back)</i></a></h2>
 
       <hr width=100% size=4px color=#9C4E97 align=left>
 
