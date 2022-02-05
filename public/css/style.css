@@ -95,6 +95,30 @@ mobile-head {
   -moz-box-shadow: 2px 2px 1px rgb(0, 0, 0, 0.2);
 }
 
+/** Updates Box **/
+.updates>iframe {
+  height: 55px;
+  width: 100%;
+  border: none;
+
+}
+
+.updates {
+  background-color: #171618;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 60%;
+  margin-top: 10px;
+  padding: 10px;
+  height: 80px;
+}
+
+.box-title {
+  color: #9C4E97;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
 /** Second Media Query **/
 @media only screen and (max-width: 670px) {
   pc-head {
@@ -117,7 +141,7 @@ mobile-head {
   }
 }
 
-/* Third Media Query **/
+/** Third Media Query **/
 @media only screen and (max-width: 450px) {
   .title {
     font-size: 1.9em;
