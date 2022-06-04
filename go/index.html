@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Meta -->
+  <title>Go » walkx.org</title>
+  <link rel="shortcut icon" href="/favicon.png" />
+  <meta name="description" content="Walkx own little place on the World Wide Web... Come and visit! :)">
+  <!-- Meta / OG -->
+  <meta property="og:title" content="Go » walkx.org">
+  <meta property="og:site_name" content="walkx.org">
+  <meta property="og:url" content="https://walkx.org">
+  <meta property="og:description" content="Walkx own little place on the World Wide Web... Come and visit! :)">
+  <meta property="og:type" content="website">
+  <!-- Meta / Twitter -->
+  <meta name="twitter:title" content="Go » walkx.org">
+  <meta name="twitter:description" content="Walkx own little place on the World Wide Web... Come and visit! :)">
+  <!-- Meta / Keywords -->
+  <meta name="keywords"
+    content="Walkx, Walkx.org, Walkx.net, Walker21390, Archive, Webring, walkx shoes, walkx schuhe, walkx schoenen, aldi, walkx baby krabbelschuhe, SaladCLI+, Salad.io" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/index.css">
+
+  <!-- Scripts -->
+  <script defer src="/js/esheep.min.js"></script>
+  <script defer src="/js/antiweb3.min.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>A suckless linktree alternative</h1>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="/">home</a>
+    <a href="/projects">projects</a>
+    <a href="/webrings">webrings</a>
+    <a href="/links">links</a>
+    <a href="/cat">cat gallery</a>
+    <a href="/midi">midi</a>
+    <a class="active" href="/go">go</a>
+    <a href="/credits">credits</a>
+  </nav>
+
+  <!-- Main -->
+  <main class="flex">
+    <div class="flex-wrapper">
+
+      <!-- About -->
+      <div class="container about">
+        <h2>
+          <img src="/assets/smilies/wave.gif" alt="Wave" class="smilies"> Hey, I'm Walkx! I'm feeling
+          <a target="_blank" rel="noopener noreferrer" href="https://www.imood.com/users/walkx">
+            <img class="imood" src="https://moods.imood.com/display/uname-Walkx/fg-fcff52/bg-040604/trans-1/imood.gif"
+              alt="Imood Status">
+          </a>.
+        </h2>
+        <p>
+          I'm Bjorn Lammers, a 14 year old webdev from the <img class="flag" src="/assets/imgs/flag.png" alt="NL">
+          Netherlands.
+          <br>
+          I have a big interest in anything tech. Coding, Building PCs, Running servers, Cyber Security, Graphic Design,
+          All of it!
+          <br><br>
+          <b>Currently you're on a slimmed down version of my homepage, which you can view <a href="/">here!</a></b>
+        </p>
+      </div>
+
+      <!-- Links -->
+      <div class="container links">
+        <h3>
+          <img src="/assets/smilies/peek.gif" alt="Peek" class="smilies"> Find me elsewhere on the www
+        </h3>
+        <ul>
+          <li><a target="_blank" rel="noopener noreferrer"
+              href="https://discord.com/users/949277452184727573">Discord</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/@WalkxTweet">Twitter</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/Walkx_/">Instagram</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/walkxcode">GitHub</a></li>
+          <li><a href="mailto:walkxnl@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></li>
+          <li><a href="/links">More links...</a></li>
+        </ul>
+      </div>
+
+      <!-- LastFM Stats -->
+      <div class="container lsatfm">
+        <h3>
+          <img src="/assets/smilies/headbanger.gif" alt="Headbanger" class="smilies"> The song I last listened to
+        </h3>
+        <div class="lastfm-inner">
+          <p><span id="song">Loading</span></p>
+        </div>
+        <script type="text/javascript">
+          let user = 'walkxnl';
+          let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+          let song = document.querySelector('#song');
+          fetch(url)
+            .then(function (response) {
+              return response.json()
+            }).then(function (json) {
+              song.innerHTML = '<img src="' + json['track']['image']['1']['#text'] + '" alt="LastFM last played">' + json['track']['name'] + ' - ' + json['track']['artist']['#text'];
+            });
+        </script>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title"
+        rel="cc:attributionURL" href="https://walkx.org">walkx.org</a> by <a rel="cc:attributionURL dct:creator"
+        property="cc:attributionName" href="mailto:walkxnl+web@gmail.com">walkx</a> is licensed under <a
+        href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank"
+        rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a> - Made with ❤️ love, 🖥️
+      computers, and 🐈 cat hairs - <a href="/credits">Credits</a> - <a href="https://up.walkx.org">Server Status</a>
+    </p>
+  </footer>
+
+  <!-- Sign the guestbook -->
+  <div class="sign-guestbook">
+    <a href="https://walkx.123guestbook.com/" target="_blank" rel="noopener noreferrer">
+      <img src="/assets/imgs/guestbook.gif" alt="Sign the guestbook">
+    </a>
+  </div>
+
+  <!-- Audio -->
+  <audio loop autoplay>
+    <source src="/assets/music/photo_channel/sd_card_photo_list.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- eSheep -->
+  <script>
+    new eSheep().Start("/assets/esheep/animations.xml");
+  </script>
+
+</body>
+
+</html>
