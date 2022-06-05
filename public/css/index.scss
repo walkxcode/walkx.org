@@ -253,7 +253,14 @@ main {
 
   #wcb {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+    #wcb_2 {
+      font-family: inherit;
+      display: inline;
+    }
   }
 }
 
