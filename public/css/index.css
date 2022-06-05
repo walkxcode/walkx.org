@@ -201,6 +201,10 @@ main .lastfm-inner img {
 main .chat {
   margin: 1rem;
 }
+main #wcb {
+  display: flex;
+  align-items: flex-start;
+}
 
 footer {
   text-align: center;
