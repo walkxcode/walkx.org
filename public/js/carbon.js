@@ -30,7 +30,7 @@ if ("fetch" in window) {
   wcB.insertAdjacentHTML("beforeEnd", wcC),
     wcB.insertAdjacentHTML(
       "beforeEnd",
-      '<span id="wcb_g">Measuring CO<sub>2</sub>&hellip;</span>&nbsp;<a id="wcb_a" target="_blank" rel="noopener" href="https://www.websitecarbon.com/website/walkx-org/">Website Carbon</a><span id="wcb_2">&nbsp;</span>'
+      '<span id="wcb_2"></span><span id="wcb_g">Measuring CO<sub>2</sub>&hellip;</span>&nbsp;(<a id="wcb_a" target="_blank" rel="noopener" href="https://www.websitecarbon.com/website/walkx-org/">Website Carbon</a>)'
     );
   let e = localStorage.getItem("wcb_" + wcU);
   const n = new Date().getTime();
