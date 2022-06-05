@@ -139,6 +139,7 @@ header {
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
   background-color: var(--bg-sec);
