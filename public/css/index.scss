@@ -238,6 +238,12 @@ main {
     }
   }
 
+  .guestbook {
+    > iframe {
+      width: 100%;
+    }
+  }
+
   .lastfm-inner {
     font-weight: bold;
 

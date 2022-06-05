@@ -191,6 +191,9 @@ main .updates > iframe {
   width: 100%;
   border: none;
 }
+main .guestbook > iframe {
+  width: 100%;
+}
 main .lastfm-inner {
   font-weight: bold;
 }
