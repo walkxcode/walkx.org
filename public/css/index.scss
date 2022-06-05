@@ -83,6 +83,7 @@ body {
   font-size: 16px;
   font-family: "Alegreya", sans-serif;
   background-color: var(--bg);
+  background-image: url("/assets/imgs/bg.gif");
   color: var(--text);
   display: flex;
   flex-direction: column;
@@ -206,6 +207,10 @@ nav {
 // #region
 
 main {
+  background-color: #0a0a0a98;
+  padding: 2rem;
+  border-radius: 0.5rem;
+
   &.flex {
     display: flex;
     justify-content: space-between;

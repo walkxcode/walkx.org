@@ -69,6 +69,7 @@ body {
   font-size: 16px;
   font-family: "Alegreya", sans-serif;
   background-color: var(--bg);
+  background-image: url("/assets/imgs/bg.gif");
   color: var(--text);
   display: flex;
   flex-direction: column;
@@ -169,6 +170,11 @@ nav a.active {
   border-radius: 0.2rem;
 }
 
+main {
+  background-color: rgba(10, 10, 10, 0.5960784314);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
 main.flex {
   display: flex;
   justify-content: space-between;
