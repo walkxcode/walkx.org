@@ -38,6 +38,10 @@ h6 {
   overflow-wrap: break-word;
 }
 
+iframe {
+  border: none;
+}
+
 :root {
   --text: #fff;
   --hover: #fff7d5;
