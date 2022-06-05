@@ -203,13 +203,13 @@ main .chat {
 }
 main #wcb {
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  flex-direction: row-reverse;
 }
 main #wcb #wcb_2 {
   font-family: inherit;
   display: inline;
+}
+main #wcb #wcb_p {
+  display: none;
 }
 
 footer {
